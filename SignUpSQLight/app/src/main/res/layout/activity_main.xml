@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/signInUserNameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password : "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/signInPasswordEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signInId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C64DF"
+        android:layout_marginTop="20dp"
+        android:text="sign in"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/signUpId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C64DF"
+        android:layout_marginTop="20dp"
+        android:text="sign up here"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
